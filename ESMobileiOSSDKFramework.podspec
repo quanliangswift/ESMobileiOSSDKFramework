@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
  
   s.author       = {"quailingswift" => "1258658427@qq.com" }
  
-  s.source       = { :git => "https://github.com/quanliangswift/ESMobileiOSSDKFramework.git", :tag => s.version  }
+  s.source       = { :git => "https://github.com/quanliangswift/ESMobileiOSSDKFramework.git"}
  
  s.vendored_frameworks = 'ESMobileiOSSDK.framework'
  
