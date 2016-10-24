@@ -1,0 +1,55 @@
+//这是对于这个SDK的使用说明
+
+/****
+
+使用之前 需要 importESMobileiOSSDK
+
+在需要使用XIB的时候，，不能用NSBundle.MainBundle, 而是用 NSBundle(identifier:"String")
+------>>>   identifier:"com.eshore.ESMobileiOSSDK"  ：这是identifier
+
+AlertUtil ： 弹出框，定义了四种不同的弹出框
+*
+*
+*
+AttachmentBlock ： 附件上传的控件
+/******使用实例
+var attachmentBlock: AttachmentBlock?
+attachmentBlock = NSBundle(identifier:"com.eshore.ESMobileiOSSDK")!.loadNibNamed("AttachmentBlock", owner: self, options: nil).first as? AttachmentBlock
+attachmentBlock?.loadAttachmentBlock(self, parentView: self.view)
+
+attachmentBlock!.voiceRecordButton.hidden = true
+attachmentBlock!.takeOtherButton.hidden = true
+attachmentBlock!.takeVedioButton.hidden = true
+
+**/
+*
+*
+*
+ClickAnimation : 点击动画
+/******使用实例
+
+**/
+*
+*
+*
+FilePreviewView ： 文件预览
+/******使用实例
+var previewView : FilePreviewView!  //预览图片
+
+//创建 图片 预览文件的view
+func createPreviewView() {
+//        previewView = NSBundle(identifier: "com.eshore.UploadFileSDK")!.loadNibNamed("FilePreview", owner: self.view, options: nil).first as! FilePreviewView
+previewView = NSBundle.mainBundle().loadNibNamed("FilePreview", owner: self.view, options: nil).first as! FilePreviewView
+previewView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+previewView.center = self.view.center
+self.view.addSubview(previewView)
+
+}
+**/
+*
+*
+*
+MyActivityIndicatorView ： 自定义的旋转进度条
+
+
+****/

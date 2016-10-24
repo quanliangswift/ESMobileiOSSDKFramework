@@ -1,0 +1,3 @@
+framework module ESMobileiOSSDK {
+    header "ESMobileiOSSDK-Swift.h"
+}
