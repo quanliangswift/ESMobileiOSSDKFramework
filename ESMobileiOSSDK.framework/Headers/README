@@ -4,6 +4,8 @@
 
 使用之前 需要 importESMobileiOSSDK
 
+
+  myView.voiceImage.image = UIImage(named: "mic_0",inBundle: NSBundle(identifier: "com.eshore.ESMobileiOSSDK"),compatibleWithTraitCollection: nil)
 在需要使用XIB的时候，，不能用NSBundle.MainBundle, 而是用 NSBundle(identifier:"String")
 ------>>>   identifier:"com.eshore.ESMobileiOSSDK"  ：这是identifier
 

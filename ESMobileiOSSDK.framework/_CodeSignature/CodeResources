@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>AttachmentBlock.nib</key>
 		<data>
 		700wtP1ML1WipW/xEFUMti/pXW4=
@@ -12,9 +16,17 @@
 		<data>
 		rl9pulmipDmVyb1oci/Egs5Mdd4=
 		</data>
+		<key>Headers/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>Headers/ESMobileiOSSDK-Swift.h</key>
 		<data>
 		ve8+nbFHegFB+vzNn0cpCjolGbI=
+		</data>
+		<key>Headers/README</key>
+		<data>
+		GkeIbXmr9CffnOXOc81IcW47Bps=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -35,6 +47,22 @@
 		<key>Modules/ESMobileiOSSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
 		4hM2XPMmpGWz2ujS/gCuBF5LVSA=
+		</data>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/i386.swiftdoc</key>
+		<data>
+		EpyiNNS4INlN+sW3jOraevdfmBU=
+		</data>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/i386.swiftmodule</key>
+		<data>
+		u9ekTLMvou6+TPz+iPKu+GHtJVk=
+		</data>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		HopXL857ye+Wlq1FEuizrGfUAyo=
+		</data>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		PRCYeY290RBUblxIwPhHH0skpVs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,6 +164,17 @@
 			OVgNXvgQTNcizpbjda12Wy/Dy2ALaohtW8bjThucPXE=
 			</data>
 		</dict>
+		<key>Headers/README</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GkeIbXmr9CffnOXOc81IcW47Bps=
+			</data>
+			<key>hash2</key>
+			<data>
+			hbN/U0H4wjGb00haVEFo+djpp5YDD5GB6fI5CTUInvo=
+			</data>
+		</dict>
 		<key>Modules/ESMobileiOSSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -178,6 +217,50 @@
 			<key>hash2</key>
 			<data>
 			UXN06Q2RH9bGvsg87vCIwQw3r+sRgFjOcaYZ8ZyAL/4=
+			</data>
+		</dict>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/i386.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EpyiNNS4INlN+sW3jOraevdfmBU=
+			</data>
+			<key>hash2</key>
+			<data>
+			m2kUi0XqcExiiSWqjiMO58bmAMtuxOmyj7Wr7OURSgw=
+			</data>
+		</dict>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/i386.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u9ekTLMvou6+TPz+iPKu+GHtJVk=
+			</data>
+			<key>hash2</key>
+			<data>
+			+DD4155n7+2yT72u0m2l9xJ2taH6q7R3V1s/lk8Ffk0=
+			</data>
+		</dict>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HopXL857ye+Wlq1FEuizrGfUAyo=
+			</data>
+			<key>hash2</key>
+			<data>
+			GijoFqzsd805ptBrPlCTZNS7p5BqoHE4wVzuCDrRpGo=
+			</data>
+		</dict>
+		<key>Modules/ESMobileiOSSDK.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PRCYeY290RBUblxIwPhHH0skpVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			UFvAd2h9EmXoAf5qfaMFI/Hv6YeS6WGW36QcFw4P+6Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
