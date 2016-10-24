@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
  
   s.name         = "ESMobileiOSSDKFramework"
   s.version      = "0.0.1"
-  s.summary      = "ESMobileiOSSDK is used for me."
+  s.summary      = "ESMobileiOSSDKFramework is used for me."
 
  
   s.description  = <<-DESC
@@ -18,11 +18,10 @@ Pod::Spec.new do |s|
   s.author             = {"quailingswift" => "1258658427@qq.com" }
  
   s.source       = { :git => "https://github.com/quanliangswift/ESMobileiOSSDKFramework.git", :tag => s.version  }
-
+  s.vendored_frameworks = 'ESMobileiOSSDK.framework'
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.vendored_frameworks = "ESMobileiOSSDK.framework"
   s.frameworks = "Foundation", "UIKit"
   s.library = 'resolv'
 
